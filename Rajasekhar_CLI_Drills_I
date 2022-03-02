@@ -1,0 +1,32 @@
+badri@badri-GF63-Thin-10SC:~/vscode/uno$ tree
+.
+├── a.txt
+├── b.txt
+└── two
+    ├── d.txt
+    └── three
+        ├── e.txt
+        └── four
+
+3 directories, 4 files
+badri@badri-GF63-Thin-10SC:~/vscode/uno$ mv a.txt two/
+badri@badri-GF63-Thin-10SC:~/vscode/uno$ ls
+b.txt  two
+badri@badri-GF63-Thin-10SC:~/vscode/uno$ tree
+.
+├── b.txt
+└── two
+    ├── a.txt
+    ├── d.txt
+    └── three
+        ├── e.txt
+        └── four
+
+3 directories, 4 files
+badri@badri-GF63-Thin-10SC:~/vscode/uno$ cd two
+badri@badri-GF63-Thin-10SC:~/vscode/uno/two$ cat a.txt
+Unix is a family of multitasking, multiuser computer operating systems that 
+derive from the original AT&T Unix, development starting in the 1970s at the 
+Bell Labs research center by Ken
+Thompson, Dennis Ritchie, and others.
+
